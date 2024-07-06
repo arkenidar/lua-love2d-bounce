@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "START : Debug Love",
+      // https://marketplace.visualstudio.com/items?itemName=tomblind.local-lua-debugger-vscode
+      "type": "lua-local",
+      "request": "launch",
+      "program": {
+        "command": "love"
+      },
+      "args": [
+        "${workspaceFolder}"
+      ],
+      "scriptRoots": [
+        "${workspaceFolder}"
+      ]
+    }
+  ]
+}
