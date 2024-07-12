@@ -1,6 +1,10 @@
 {
+    // https://github.com/arkenidar/luajit-sdl/blob/main/app.lua
     "Lua.diagnostics.globals": [
-        "love"
+        "love",
+        "renderer",
+        "ffi",
+        "sdl"
     ],
     "Lua.diagnostics.disable": [
         "lowercase-global"
